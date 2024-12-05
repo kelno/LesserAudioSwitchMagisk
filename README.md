@@ -1,25 +1,34 @@
+WIP, now I can install it on my phone, but it seems the APK doesn't work properly on the input switching part. 
+
+This is a Magisk module doing installing a modded LesserAudioSwitchAndroid11 and enabling android.permission.MODIFY_AUDIO_ROUTING for it.   
+
 > [!WARNING]
-> **⚠Please read carefully before using this module⚠**
-> 
-> Thanks for using but this module **won't be maintained anymore**, so it will be archived soon.
->
-> If you still want to use this module, please:
-> - Try the latest Magisk version.
-> - Only try on vanilla/aosp roms (e.g., LineageOS, Pixel Experience (Plus), Evolution X, etc.), OEM customized roms (OneUI, MIUI, etc.) may not be working correctly (or not).
->
-> New open issues will not be resolved. **USE AT YOUR OWN RISK!**
+> I'm not the author of the modded apk and cannot vouch for it's reliability or trustworthiness.
 
 # LesserAudioSwitchAndroid11
 Lesser Audio Switch for Android 11+ (Magisk Module)
 
 ## Requirement
-Magisk v19+
+- Root
+- Magisk v20.4+
 
 ## Tested
-Tested on PixelExperiencePlus 13 (Android 13) LG G7 ThinQ and Sony Xperia XZ1
+Fails to switch mic on my fairphone 3 with LineageOS 21 (Android 14), with Magisk 28003.
 
 ## How to use
-Download LASM.zip from [Release page](https://github.com/michioxd/LesserAudioSwitchAndroid11/releases) and install it into Magisk (Module Section)
+Make sure all versions of regular lesser audioswitch are uninstalled before installing this module.
+Download LASM.zip from [Release page](https://github.com/kelno/LesserAudioSwitchAndroid11) and install it with Magisk Modules Manager.
+
+## Modded APK (notes by zelo)
+- updated to app release 2.7.2
+- unlocked all premium features
+- fixed bugs that would not allow audio route switching
+- fixed crashes
+- removed all garbage, analytics, ads, google shit
+- shrunk package size
+- updated package signature
 
 ## Credits
-me and all da world
+Original app by Roughy AKA Mathias Nordskog
+@zelodev on telegram for the modded APK.
+Originally forked from https://github.com/michioxd/LesserAudioSwitchAndroid11 and basically kept nothing, but this helped!
