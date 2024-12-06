@@ -7,7 +7,7 @@ This is a Magisk module installing a modded 2.7.2 Lesser AudioSwitch and enablin
 Lesser Audio Switch, Magisk Module, for rooted Android 11+
 
 ## Requirement
-- Root
+- Root (for installing)  
 - Magisk v20.4+
 
 ## Tested
