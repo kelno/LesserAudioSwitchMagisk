@@ -14,7 +14,7 @@ Lesser Audio Switch for Android 11+ (Magisk Module)
 Works on my fairphone 3 with LineageOS 21 (Android 14), with Magisk 28003.
 
 ## Known issues
-- Forcing the bluetooth microphone doesn't (always?) work. 
+- [Forcing the bluetooth microphone doesn't (always?) work (link to issue)](https://github.com/kelno/LesserAudioSwitchAndroid11/issues/1)
   
 Maybe we can mod the app further to fix it, help is welcome! I have no experience in Android development.
   
