@@ -1,5 +1,3 @@
-WIP, now I can install it on my phone, but it seems the APK doesn't work properly on the input switching part. 
-
 This is a Magisk module doing installing a modded LesserAudioSwitchAndroid11 and enabling android.permission.MODIFY_AUDIO_ROUTING for it.   
 
 > [!WARNING]
@@ -13,22 +11,27 @@ Lesser Audio Switch for Android 11+ (Magisk Module)
 - Magisk v20.4+
 
 ## Tested
-Fails to switch mic on my fairphone 3 with LineageOS 21 (Android 14), with Magisk 28003.
+Works on my fairphone 3 with LineageOS 21 (Android 14), with Magisk 28003.
 
+## Known issues
+- Forcing the bluetooth microphone doesn't (always?) work. 
+  
+Maybe we can mod the app further to fix it, help is welcome! I have no experience in Android development.
+  
 ## How to use
-Make sure all versions of regular lesser audioswitch are uninstalled before installing this module.
-Download LASM.zip from [Release page](https://github.com/kelno/LesserAudioSwitchAndroid11) and install it with Magisk Modules Manager.
-
-## Modded APK (notes by zelo)
-- updated to app release 2.7.2
-- unlocked all premium features
-- fixed bugs that would not allow audio route switching
-- fixed crashes
-- removed all garbage, analytics, ads, google shit
-- shrunk package size
-- updated package signature
+Make sure all versions of regular lesser audioswitch are uninstalled before installing this module.  
+Download from [Release page](https://github.com/kelno/LesserAudioSwitchAndroid11) and install it with Magisk Modules Manager.  
+  
+## Modded APK (notes by zelo)  
+- updated to app release 2.7.2  
+- unlocked all premium features  
+- fixed bugs that would not allow audio route switching  
+- fixed crashes  
+- removed all garbage, analytics, ads, google shit  
+- shrunk package size  
+- updated package signature  
 
 ## Credits
-Original app by Roughy AKA Mathias Nordskog
-@zelodev on telegram for the modded APK.
-Originally forked from https://github.com/michioxd/LesserAudioSwitchAndroid11 and basically kept nothing, but this helped!
+Original app by Roughy AKA Mathias Nordskog.  
+@zelodev on telegram for the modded APK.  
+Originally forked from https://github.com/michioxd/LesserAudioSwitchAndroid11 and basically kept nothing, but this helped!  
