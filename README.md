@@ -34,4 +34,4 @@ Download from [Release page](https://github.com/kelno/LesserAudioSwitchMagisk) a
 ## Credits
 Original app by Roughy AKA Mathias Nordskog.  
 @zelodev on telegram for the modded APK.  
-Originally forked from https://github.com/michioxd/LesserAudioSwitchAndroid11 and everything is changed now but this helped!  
+Forked from https://github.com/michioxd/LesserAudioSwitchAndroid11
